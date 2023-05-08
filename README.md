@@ -47,9 +47,10 @@ To run the backend on the Django development server, the following steps need to
    * $ python manage.py makemigrations
    * $ python manage.py migrate
 
-3. Import the pre-configured database:
-   * $ python manage.py loaddata my_database_dump.json
-
+3. Import the admin account and pre-configured database:
+   * $ python manage.py loaddata admin_account.json
+   * $ python manage.py loaddata db.json
+ 
 4. Start the development server:
    * $ python manage.py runserver
   
