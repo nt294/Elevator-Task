@@ -19,7 +19,7 @@ Upon page load, the application obtains a list of floors via API call, which it 
 
 # Setup
 
-First, clone the repository from ________
+First, clone the repository from https://github.com/nt294/Elevator-Task.git
 
 ## React frontend
 
