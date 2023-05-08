@@ -1,0 +1,13 @@
+.aws-btn {
+  --button-font-weight: 500 !important;
+  --button-default-border-radius: 25px !important;
+  --button-default-font-size: 50px !important;
+  --button-default-height: 55px !important;
+  --button-default-width: 505px !important;
+  --button-primary-color-light: black;
+  --button-primary-color: #ccc !important;
+  --button-primary-color-dark: #868686 !important;
+  --button-primary-border: 1px solid black !important;
+  --button-primary-color-hover: #c0c0c0 !important;
+  --button-primary-color-active: #9f9f9f !important;
+}
