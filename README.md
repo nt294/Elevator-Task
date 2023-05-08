@@ -21,21 +21,6 @@ Upon page load, the application obtains a list of floors via API call, which it 
 
 First, clone the repository from https://github.com/nt294/Elevator-Task.git
 
-## React frontend
-
-To run the React frontend, the following steps need to be taken on a machine with a valid npm installation:
-
-1. Navigate to the React frontend folder (where the `package.json` file is located)
-
-2. Install the required dependencies:
-   * $ npm install
-
-3. Start the React development server:
-   * $ npm start
-
-The React development server should now be running on [http://localhost:3000](http://localhost:3000).
- 
-
 ## Django backend
 
 To run the backend on the Django development server, the following steps need to be taken on a machine with a valid Python 3 installation. Please note that the frontend is expecting this to be run on port 8000, which is the default. This will also create an admin account with the username `admin` and password `AdminPassword` for the admin panel:
@@ -55,5 +40,19 @@ To run the backend on the Django development server, the following steps need to
    * $ python manage.py runserver
   
 The Django development server should now be running on http://localhost:8000.  
+
+## React frontend
+
+To run the React frontend, the following steps need to be taken on a machine with a valid npm installation:
+
+1. Navigate to the React frontend folder (where the `package.json` file is located)
+
+2. Install the required dependencies:
+   * $ npm install
+
+3. Start the React development server:
+   * $ npm start
+
+The React development server should now be running on [http://localhost:3000](http://localhost:3000).
 
 
