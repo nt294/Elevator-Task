@@ -12,10 +12,7 @@ Upon page load, the application obtains a list of floors via API call, which it 
 
 * There is no simulated delay when calling an elevator - the elevator's current floor is immediately set to the floor the user is on
 
-* If the user is on floor x, the button for floor x is disabled. However, this is currently not handled in the backend
-
 * If the user in on floor X, the corresponding button for floor X is disabled on the frontend, however this is not currently addressed on the backend
-
 
 # Setup
 
